@@ -4,53 +4,184 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xacademy Clase 1 maquetacion</title>
-    <style>
-        body {
-            margin: 0;
-        }
-        p {
-            margin-right: 40px;
-        }
-        h1 {
-            margin: 0px 400px;
-            text-align: center;
-        }
-        button.redondo {
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 25px;
-            padding: 0px 20px;
-            height: 32px;
-        }
-        div#introduction-actions {
-            display: flex;
-            justify-content: center;
-        }
-    </style>
+    <title>Fundacion Tecnologia con Proposito</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
+<header>
+    <nav>
+
+      <div class="navbar-left">
+        <img src="technology-with-purpose.svg" alt="Logo">
+      </div>
+
+      <div class="navbar-right">
+        <ul>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Programas</a></li>
+          <li><a href="#">Capacitaciones</a></li>
+          <li><a href="#">Alianzas</a></li>
+          <li><a href="#">Contacto</a></li>
+          <button>Sumate +</button>
+          <a href="#"><img src="instagram.png" alt="Instagram" width="15" height="15"></a>
+          <a href="#"><img src="linkedin.png" alt="LinkedIn" width="15" height="15"></a>
+        </ul>
+        
+       </div>
+       
+    </nav>
+
+</header>
+  
 <body>
-    <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
-        <div id="header-left">
-            <img src="logo.svg">
-        </div>
-        <div id="header-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capaciontaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
-            <button class="redondo">Sumate +</button>
-        </div>
+    <div class="descripcion">
+        <p>Somos una fundación dedicada a mejorar <br> la calidad de vida de las personas y su <br> entorno, a través de la tecnología.</p>
+      
+      <button>Contactanos -></button>
+      <button>Sumate +</button>
     </div>
-    <div id="introduction" style="padding: 48px;">
-        <div id="introduction-text">
-            <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
+      <div class="impacto">
+        <h2>.Impacto</h2>
+        <p>Buscamos construir alianzas y fortalecer vinculos para <br> generar una transformacion real en la comunidad.<br> Trabajamos para acercar la tecnologia innovadora y <br> disruptiva del sector privado hacia el sector social.</p>
+        <div class="numeros">
+          <div class="numero">
+            <span class="valor">58</span>
+            <span class="texto">Localidades</span>
+          </div>
+          <div class="numero">
+            <span class="valor">+50</span>
+            <span class="texto">Mentores</span>
+          </div>
+          <div class="numero">
+            <span class="valor">301</span>
+            <span class="texto">Participantes</span>
+          </div>
         </div>
-        <div id="introduction-actions" style="margin-top: 25px;">
-            <button class="redondo">Contactanos -></button>
-            <button class="redondo" style="margin-left: 14px;">Sumate +</button>
+      </div>
+      <section class="programas">
+        <div class="programa" id="xacademy">
+          <p>.Programas</p>
+          <h2>X Academy</h2>
+          <img src="programas.jpg" alt="X Academy">
+          <div class="descripcion-programa">
+            <p>xAcademy es un programa de formacion de tecnologia llevado <br> adelante por la Fundacion Tecnologia con Proposito junto a Santex que <br> busca promover un cambio positivo en la comunidad a traves de la <br> educacion en IT, apuntando a lograr la insercion laboral de personas <br> en el mundo tecnologico.</p>
+            <button>Mas info -></button>
+          </div>
         </div>
-    </div>
+        <div class="programa" id="robotica-educativa">
+          <h2>Robótica Educativa: la tecnologia del futuro.</h2>
+          <img src="robotica-educativa.jpg" alt="Robótica Educativa">
+          <div class="descripcion-programa">
+            <p>Durante el curso, los alumnos y alumnas a traves de la robotica<br> desarrollan la curiosidad, el autodidactismo y las habilidades blandas <br> necesarias para afrontar la revolucion tecnologica del siglo XXI.</p>
+            <button>Mas info -></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="capacitaciones">
+        <div class="capacitaciones" id="estafas-virtuales">
+          <p>.Capacitaciones</p>
+          <h2>Estafas virtuales: ¿como protegernos?</h2>
+          <img src="estafas-virtuales.jpg" alt="Estafas virtuales">
+          <div class="descripcion-capacitaciones">
+            <p>Los canales de comunicación a través de medios digitales cobraron <br>gran protagonismo a partir de la pandemia. Al mismo tiempo, se <br>perfeccionan cada vez más rápido las modalidades de estafas y <br>fraudes virtuales. En esta capacitación vas a aprender diferentes tips y <br> consejos útiles para navegar de manera más segura.</p>
+            <button>Mas info -></button>
+          </div>
+        </div>
+        <div class="capacitaciones" id="seguridad">
+          <h2>Seguridad informatica para infancias</h2>
+          <img src="seguridad.jpg" alt="Seguridad">
+          <div class="descripcion-capacitaciones">
+            <p>¿Navegamos seguros en internet? La propuesta es una charla para <br> niños y niñas donde se brindan herramientas de seguridad y <br>autocuidado digital.</p>
+            <button>Mas info -></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="equipo">
+        <div class="contenedor">
+          <h2>.Equipo</h2>
+          <div class="integrante">
+            <img src="juan santiago.png" alt="Juan Santiago">
+            <h3>Juan Santiago</h3>
+            <p>Presidente</p>
+          </div>
+          <div class="integrante">
+            <img src="walterabrigo.png"Walter Abrigo">
+            <h3>Walter Abrigo</h3>
+            <p>Secretario</p>
+          </div>
+        </div>
+        <div class="integrante">
+          <img src="celestetorresi.png" alt="Gabriela Fernandez">
+          <h3>Gabriela Fernandez</h3>
+          <p>Tesorera</p>
+        </div>
+        <div class="integrante">
+          <img src="gabrieldubini.png" alt="Gabriel Dubini">
+          <h3>Gabriel Dubini</h3>
+          <p>Tesorero</p>
+        </div>
+        <div class="integrante">
+          <img src="florenciadagostino.png" alt="Florencia D'Agostino">
+          <h3>Florencia D'Agostino</h3>
+          <p>Direccion Ejecutiva</p>
+        </div>
+        <div class="integrante">
+          <img src="celestetorresi.png" alt="Celeste Torresi">
+          <h3>Celeste Torresi</h3>
+          <p>Comision Directiva</p>
+        </div>
+        <div class="integrante">
+          <img src="luciajaimez.png" alt="Lucia Jaimez">
+          <h3>Lucia Jaimez</h3>
+          <p>Directora de xAcademy</p>
+        </div>
+      </section>
+
+      <section class="alianzas">
+        <div class="contenedor">
+          <h2>.Alianzas</h2>
+          <div class="alianza">
+            <img src="alianzabancogalicia.png" alt="Galicia">
+            <p>Banco Galicia</p>
+          </div>
+          <div class="alianza">
+            <img src="alianzanaranja.png" alt="NaranjaX">
+            <p>Naranja X</p>
+          </div>
+          <div class="alianza">
+            <img src="alianzajesusmaria.png" alt="Municipalidad JM">
+            <p>Mun. de Jesus Maria</p>
+          </div>
+          <div class="alianza">
+            <img src="alianzasantex.png" alt="Santex">
+            <p>Santex</p>
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="logonegro.svg" alt="Logo Oscuro">
+                <h4>Trabajamos para acercar la tecnologia <br> innovadora y disruptiva del sector privado <br> hacia el sector social.</h4>
+                <p>Nosotros</p>
+                <p>Contacto</p>
+                <p>Programas</p>
+                <p>Capacitaciones</p>
+                <p>Instagram</p>
+                <p>Linkedin</p>
+
+              </div>
+                   
+            </div>
+          </div>
+         
+        </footer>    
+
 </body>
+
 </html>
